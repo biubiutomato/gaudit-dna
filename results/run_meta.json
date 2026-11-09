@@ -1,0 +1,28 @@
+{
+  "n_sequences": 540,
+  "seq_len": 256,
+  "classes": [
+    "promoter",
+    "coding",
+    "background"
+  ],
+  "models": [
+    "gc_len",
+    "1mer",
+    "2mer",
+    "3mer",
+    "4mer",
+    "hyena_tiny"
+  ],
+  "perturbations": [
+    "gc_shuffle",
+    "dinuc_shuffle",
+    "trunc_50",
+    "trunc_25",
+    "reverse",
+    "revcomp",
+    "mismatch_10"
+  ],
+  "hyena_dim": 128,
+  "note": "HyenaDNA-tiny-1k frozen mean-pooled embeddings; compositional baselines."
+}

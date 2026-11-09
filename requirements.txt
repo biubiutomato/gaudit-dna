@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+torch            # CPU build is enough
+transformers     # if HyenaDNA fails to load, try: pip install "transformers==4.38.2"
+datasets

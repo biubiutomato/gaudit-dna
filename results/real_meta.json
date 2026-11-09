@@ -1,0 +1,17 @@
+{
+  "source": "Genomic Benchmarks human_nontata_promoters (train split)",
+  "n_pos": 280,
+  "n_neg": 280,
+  "n_gc_matched_pairs": 153,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "models": [
+    "gc_len",
+    "2mer",
+    "4mer",
+    "hyena_tiny"
+  ]
+}
